@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotik — Your Pilates Class Timer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #FFF0F7; color: #1a1a1a; font-family: -apple-system, system-ui, 'SF Pro Rounded', sans-serif; }
+        .container { max-width: 600px; margin: 0 auto; padding: 48px 24px; text-align: center; }
+        .icon { width: 120px; height: 120px; border-radius: 27px; margin-bottom: 24px; box-shadow: 0 8px 32px rgba(255, 105, 180, 0.25); }
+        h1 { font-size: 2.8rem; font-weight: 800; letter-spacing: -1px; color: #FF69B4; }
+        .tagline { color: rgba(0,0,0,0.4); font-size: 0.85rem; letter-spacing: 3px; text-transform: uppercase; margin-top: 8px; }
+        .desc { color: rgba(0,0,0,0.6); font-size: 1.1rem; margin-top: 24px; line-height: 1.7; }
+        .features { margin-top: 36px; text-align: left; display: inline-block; }
+        .features li { color: rgba(0,0,0,0.6); font-size: 1rem; line-height: 2; list-style: none; padding-left: 28px; position: relative; }
+        .features li::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; background: #FF69B4; border-radius: 50%; }
+        .badge { margin-top: 36px; }
+        .badge img { height: 54px; }
+        .links { margin-top: 40px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .links a { color: #FF69B4; text-decoration: none; font-weight: 600; padding: 10px 20px; border: 2px solid #FF69B4; border-radius: 12px; transition: all 0.2s; }
+        .links a:hover { background: #FF69B4; color: #fff; }
+        footer { margin-top: 60px; color: rgba(0,0,0,0.25); font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="icon" src="icon.png" alt="Pilotik app icon">
+        <h1>Pilotik</h1>
+        <p class="tagline">Your Pilates Class Timer</p>
+        <p class="desc">A beautiful timer app built for Pilates instructors. Create routines, time your classes, and track your teaching — all in one place.</p>
+        <ul class="features">
+            <li>Build routines with warm-ups, cool-downs, and rest blocks</li>
+            <li>Live timeline with teleprompter notes during class</li>
+            <li>Spring settings visible on screen while teaching</li>
+            <li>Track teaching history and view stats over time</li>
+            <li>Mini calendar to schedule and review classes</li>
+            <li>Tag and organize your move library</li>
+        </ul>
+        <div class="badge">
+            <a href="https://apps.apple.com/app/pilotik/id000000000">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+        </div>
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+        <footer>&copy; 2025 Pilotik. All rights reserved.</footer>
+    </div>
+</body>
+</html>
